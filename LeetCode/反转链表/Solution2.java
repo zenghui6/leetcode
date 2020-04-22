@@ -8,6 +8,11 @@ class Solution2 {
         ListNode(int x) { val = x; }
     }
 
+    /**
+     * 哈哈这个有点意思
+     * @param head
+     * @return
+     */
     public ListNode reverseList(ListNode head) {
         //1.第一个条件是判断递归开始，传入的参数的合法性。第二个是递归的终止条件
         if(head == null || head.next ==null) return head;
